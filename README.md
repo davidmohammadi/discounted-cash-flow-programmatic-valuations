@@ -29,6 +29,13 @@ File showcasing the process of above steps and each created back-end function fo
 
 Backend functions were initially created in this file, then modulated into <i>df_calcs.py</i>
 
+<b>Example Visuals - AAPL</b>
+<table>
+    <tr>
+        <td width='500'><img src="images/AAPL_historical_FCF.png" width="500"> </td>
+        <td width='500'><img src="images/AAPL_equity_valuations.png" width="500"><img src="images/AAPL_FCF_forecasts.png" width="500"></td>
+    </tr>
+ </table>
 
 ## Back-End Functions (<i>dcf_calcs.py</i>)
 <b>pull_company_financials()</b>
