@@ -134,7 +134,7 @@ def calculate_average_net_income_growth_equity_earnings_method(
         - Return on Equity = Net Income/Book Value of Equity
             - Book Value of Equity = Total Assets - Total Liabilities
     
-    Formula Source: Aswatch Damodaran Session 8: Estimating Growth - https://www.youtube.com/watch?v=fRNcP9xjk-8
+    Formula Source: Aswath Damodaran Session 8: Estimating Growth - https://www.youtube.com/watch?v=fRNcP9xjk-8
     """
     
     # for the top 5 rows in the statement of cash flows (recent 5 years if annual, recent 5 quarters if quarterly),
@@ -384,6 +384,10 @@ def calculate_company_expected_return_CAPM(df_company_returns, df_index_returns,
 
 
 def calculate_WACC(total_equity, total_debt, eff_tax_rate, stock_return, cost_of_debt):
+    """
+    Calculates the weighted average cost of capital (WACC) with inputs for cost of debt, 
+    cost of equity, tax rate, total debt and total equity
+    """
     
     wacc = (
         cost_of_debt * (1 - eff_tax_rate) * (total_debt/(total_debt + total_equity))
