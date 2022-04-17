@@ -1,10 +1,10 @@
-# Discounted Cash Flow (DCF) Programmatic Valuations
+# Discounted Cash Flow (DCF) - Programmatic Valuations
 Personal functions &amp; code written as I learned the process of a discounted cash flow valuation. Pulls financials from FinancialModelingPrep and ends with valued stock price(s) 
 
 Code written by David Mohammadi 04/2022 with logic based on learnings & sources outlined below
 
 
-## Discounted Cash Flow Process
+## Valuation Process
 1. Historical Free Cash Flow Calculation
 1. Free Cash Flow Forecasting
     1. Estimating Growth
@@ -30,7 +30,7 @@ File showcasing the process of above steps and each created back-end function fo
 Backend functions were initially created in this file, then modulated into <i>df_calcs.py</i>
 
 
-## Back-end DCF functions (<i>dcf_calcs.py</i>)
+## Back-End Functions (<i>dcf_calcs.py</i>)
 <b>pull_company_financials()</b>
 - Pulls given (ticker) company financials using Financial Modeling Prep Python API
 - Financials pulled: Income Statement, Balance Sheet, Statement of Cash Flows, Company Market Characteristics
