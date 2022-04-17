@@ -3,6 +3,7 @@ Personal functions &amp; code written as I learned the process of a discounted c
 
 Code written by David Mohammadi 04/2022 with logic based on learnings & sources outlined below
 
+
 ## DCF - Process
 1. Historical Free Cash Flow Calculation
 1. Free Cash Flow Forecasting
@@ -19,6 +20,15 @@ Code written by David Mohammadi 04/2022 with logic based on learnings & sources 
             - Pull stock price & index data
     3. Effective Tax Rate
 1. Terminal, Enterprise & Equity Valuations
+
+
+## Example Company Valuation (dcf_single_company_valuation.ipynb)
+File showcasing the process of above steps and each created back-end function for a DCF valuation. File was written to learn/understand the DCF process from various lectures & sources. Visuals are created throughout the notebook showcasing the resulting calculations per respective section. 
+- Example company used: Apple (AAPL)
+- Example market used: S&P500
+
+Backend functions were initially created in this file, then modulated into <i>df_calcs.py</i>
+
 
 ## Back-end DCF functions (dcf_calcs.py)
 <b>pull_company_financials()</b>
