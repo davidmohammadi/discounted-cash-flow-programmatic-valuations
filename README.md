@@ -18,7 +18,7 @@ Personal functions &amp; code written as I learned the process of a discounted c
     3. Effective Tax Rate
 1. Terminal, Enterprise & Equity Valuations
 
-## Back-end DCF functions
+## Back-end DCF functions (dcf_calcs.py)
 <b>pull_company_financials()</b>
 - Pulls given (ticker) company financials using Financial Modeling Prep Python API
 - Financials pulled: Income Statement, Balance Sheet, Statement of Cash Flows, Company Market Characteristics
