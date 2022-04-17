@@ -22,7 +22,7 @@ Code written by David Mohammadi 04/2022 with logic based on learnings & sources 
 1. Terminal, Enterprise & Equity Valuations
 
 
-## Example Company Valuation (dcf_single_company_valuation.ipynb)
+## Example Company Valuation (<i>dcf_single_company_valuation.ipynb</i>)
 File showcasing the process of above steps and each created back-end function for a DCF valuation. File was written to learn/understand the DCF process from various lectures & sources. Visuals are created throughout the notebook showcasing the resulting calculations per respective section. 
 - Example company used: Apple (AAPL)
 - Example market used: S&P500
@@ -30,7 +30,7 @@ File showcasing the process of above steps and each created back-end function fo
 Backend functions were initially created in this file, then modulated into <i>df_calcs.py</i>
 
 
-## Back-end DCF functions (dcf_calcs.py)
+## Back-end DCF functions (<i>dcf_calcs.py</i>)
 <b>pull_company_financials()</b>
 - Pulls given (ticker) company financials using Financial Modeling Prep Python API
 - Financials pulled: Income Statement, Balance Sheet, Statement of Cash Flows, Company Market Characteristics
