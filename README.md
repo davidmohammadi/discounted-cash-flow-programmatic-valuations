@@ -33,7 +33,7 @@ Backend functions were initially created in this file, then modulated into <i>df
 <table>
     <tr>
         <td width='500'><img src="images/AAPL_historical_FCF.png" width="500"> </td>
-        <td width='500'><img src="images/AAPL_equity_valuations.png" width="500"><img src="images/AAPL_FCF_forecasts.png" width="500"></td>
+        <td width='500'><img src="images/AAPL_FCF_forecasts.png" width="500"><img src="images/AAPL_equity_valuations.png" width="500"></td>
     </tr>
  </table>
 
