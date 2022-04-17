@@ -18,3 +18,8 @@ Steps:
             - Pull stock price & index data
     3. Effective Tax Rate
 1. Terminal, Enterprise & Equity Valuations
+
+Sources of Logic & Learnings: 
+- [Aswath Damodaran Valuation Lectures](https://youtube.com/playlist?list=PLUkh9m2BorqnKWu0g5ZUps_CbQ-JGtbI9)
+- [Investopedia](https://www.investopedia.com/ask/answers/033015/what-formula-calculating-free-cash-flow.asp)
+- [Jose Manu - TDS](https://towardsdatascience.com/discounted-cash-flow-with-python-f5103921942e)
