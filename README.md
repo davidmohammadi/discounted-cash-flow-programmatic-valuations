@@ -4,7 +4,7 @@ Personal functions &amp; code written as I learned the process of a discounted c
 Code written by David Mohammadi 04/2022 with logic based on learnings & sources outlined below
 
 
-## DCF Process Outline
+## Discounted Cash Flow Process
 1. Historical Free Cash Flow Calculation
 1. Free Cash Flow Forecasting
     1. Estimating Growth
