@@ -39,6 +39,8 @@ Backend functions were initially created in this file, then modulated into <i>df
 
 
 ## Back-End Functions (<i>dcf_calcs.py</i>)
+List of relevant functions I created for core calculations/segments to a DCF valuation
+
 <b>pull_company_financials()</b>
 - Pulls given (ticker) company financials using Financial Modeling Prep Python API
 - Financials pulled: Income Statement, Balance Sheet, Statement of Cash Flows, Company Market Characteristics
